@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+*{
+	margin: auto;
+	padding: auto;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.login{
+  background-color: white;
+  color: rgb(234, 33, 33);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.login:hover{
+  background-color: #EA2121;
+  color: white;
+}
+.profBtn{
+  background-color: #EA2121;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;	
+}
+.profBtn:hover{
+  background-color: white;
+  color: #EA2121;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.eaclogo{
+	height:100%;
+	width: 50%;
+}
+.left{
+	height: 200px;
+}
+.left, .right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right, h1{
+	text-align: center;
+	padding: 30px;
+}
+.right form{
+	margin-left: 80px;
+	width: 500px;
+}
+form input[type="text"],
+form input[type="password"]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #D3D3D3;
+}
+
+@media screen and (min-width: 900px){
+	.container{
+	flex-direction: row;
+	height: 100vh;
+	}
+	.left, .right{
+	display: flex;
+	width: 50%;
+	height: auto;
+	}
+}
+
+/* .left{
+	background: url("images/eaclogo.png");
+	background-size: cover;
+} */

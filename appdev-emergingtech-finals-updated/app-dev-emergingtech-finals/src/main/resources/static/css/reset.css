@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background-position: center;
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #505050;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.5;
+	text-transform: none
+}
+.footer {
+	background-color: #fff
+}
+.pw {
+	background-color: #fff;
+	padding: 12px;
+	border: 1px solid #dfdfdf
+}
+input[type=password] {
+  width: 80%;
+  padding: 15px 25px;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
